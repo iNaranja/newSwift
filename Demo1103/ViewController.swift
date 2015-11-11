@@ -20,6 +20,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         iv.delegate=self
         iv.frame=self.view.frame
         iv.tableFooterView=UIView()
+        self.view.addSubview(iv)
 
         // Do any additional setup after loading the view.
     }
